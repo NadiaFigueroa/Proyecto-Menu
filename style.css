@@ -1,0 +1,849 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+
+.hero{
+    width: 100%;
+    height: 450px;
+    background-image:linear-gradient(to right,#1014217c, #00114a88), url(./img-header/menu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+.nav{
+    list-style: none;
+}
+
+.nav li{
+    display:inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    padding: 0.8em;
+}
+
+.nav li a{
+    display:flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: solid 1px rgb(150, 150, 150);
+}
+
+.texto-header{
+    display: inline-block;
+    align-self: center;
+    padding: 2em;
+}
+.texto-header h3{
+    text-align: center;
+    padding-top: 1em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4.5rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 5px  rgb(54, 54, 54);
+}
+
+.texto-header p{
+    color: rgb(172, 172, 172);
+    font-size: 1.5em;
+    text-align: center;
+}
+main{
+    background-image:linear-gradient(to right,#101421da, #00114a5d), url(./img-background/photo-1506508618093-6fe5ce3def4c.avif);
+    font-family: 'Roboto Slab', serif;
+}
+/*Seccion 1-Platos alta cocina*/
+.sec-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.titulo-sec1{
+    text-shadow: 7px 7px 7px black;
+    font-size: 19px;
+    color: rgb(156, 156, 156);
+    padding-right: 3em;
+}
+.Box{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 250vh;
+}
+
+.img{
+    filter: drop-shadow( 10px 5px 5px black);
+}
+
+.img-box1{
+    width: 160px;
+}
+
+.img-box2{
+    width: 145px;
+}
+
+.img-box3{
+    width: 140px;
+    padding: 15px;
+}
+
+.img-box4{
+    width: 120px;
+    height: 110px;
+    padding: 0.5em;
+}
+
+.Box p{
+    color: rgb(202, 202, 201);
+    font-size: 8px;
+    padding: 0.3rem;
+}
+
+/*Seccion 2- Pizzas*/
+
+.sec-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.video-1{ 
+    width: 100%;
+    position: relative; 
+    border-radius: 10px;
+}
+
+.titulo-sec2{
+    position: absolute;
+    background-color: rgba(19, 24, 54, 0.226);
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    margin-left: 80px;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 200vh;
+    height: 150px;
+}
+
+.imgsec2{
+    filter: drop-shadow( 10px 5px 5px black);
+}
+
+
+.img-2{
+    width: 95px;
+    height: 90px;
+    }
+
+.img-3{
+    width:130px;
+    height:150px;
+}
+
+
+.sec-2 p{
+    color: rgb(202, 202, 201);
+    font-size: 8px;
+    padding: 0.5em;
+}
+
+
+/*Seccion3-Hamburguesas*/
+
+.sec3{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cardsec3{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 12px;
+    width: 100%;
+    height: 150px;
+}
+
+.card5{
+    display: flex;
+    align-items:flex-end;
+}
+
+.card6{
+    padding: 1em;
+}
+
+.card7{
+    display: flex;
+    align-items:flex-end;
+    padding: 2em;
+}
+
+.video-2{ 
+    width:100%;
+    padding: 20px;
+    border-radius: 40px;
+    position: relative; 
+}
+
+.titulo-sec3{
+    position: absolute;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(9, 14, 46, 0.226);
+    text-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 85px;
+    z-index: 1;
+}
+.img-sec3{
+    filter: drop-shadow( 10px 5px 5px black);
+}
+
+.img-5{
+    width: 10rem;
+}
+.img-6{
+    width: 6rem;
+}
+.img-7{
+    width: 13rem;
+}
+
+.cardsec3 p {
+    font-size: 10px;
+    text-align: center;
+    padding: 1.5em;
+    color: rgb(223, 223, 223);
+}
+
+/*Seccion 4-Ensaladas*/
+
+
+.video-3{ 
+    width: 95%;
+    position: relative; 
+    border-radius: 25px;
+    padding-left: 15px;
+}
+
+
+.titulo-sec4{
+    position: absolute;
+    background-color: rgba(19, 24, 54, 0.226);
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    margin-left: 80px;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.sec-4{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+.cardsec4{
+    display: flex;
+    justify-content:center;
+    gap: 12px;
+    width: 290px;
+    padding: 1em;
+}
+.card8{
+    display: flex;
+    align-items:flex-end;
+}
+
+.img-sec4{
+    filter: drop-shadow( 10px 5px 5px black);
+}
+
+.img-8{
+    width: 8rem;
+    height: 8rem;
+}
+.img-9{
+    width: 9rem;
+    height:7rem;
+}
+.sec-4 p{
+    text-align: center;
+    font-size: 11px;
+    color: white;
+    padding-left: 0.5em;
+}
+
+/*seccion 5*/
+
+.sec-5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+    
+.video-4{ 
+    border-radius: 55px;
+    width: 95%;
+    position: relative; 
+    padding-left: 15px;
+    padding-bottom: 15px;
+    }
+.titulo-sec5{
+    position: absolute;
+    background-color: rgba(19, 24, 54, 0.226);
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(255, 245, 245);
+    text-shadow: 2px 2px 2px black;
+    margin-left: 80px;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+/*footer*/
+footer{
+    background-image:linear-gradient(to right,#101421da, #00114a5d), url(./img-background/photo-1506508618093-6fe5ce3def4c.avif);
+    font-family: 'Roboto Slab', serif;
+}
+
+.pie{
+    width: 100%;
+    background-color: #05042b73;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    }
+
+.mapa{
+    width: 45px;
+    height: 50px; 
+    border-radius: 10px;
+    }
+
+.titulo-foot-mapa{
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+
+.titulo-foot-ico{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 15px;
+    color: #ffffff;
+}  
+
+.lista-foot{
+    list-style: none;
+    font-size: 10px;
+    color: white;
+    padding: 6px;
+    }
+  
+.lista-foot li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 9px;
+    text-decoration: none;
+    }     
+
+.titulo-contenido-foot{
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    }    
+
+
+.fa-brands{
+    font-size: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: #d6d6d6;
+    padding: 3px;
+}
+.Btn {
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(#4470ea, #39fad7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    left: 8.4rem;
+  }
+  
+.arrow path {
+    fill: white;
+}
+ 
+.copy{
+    color: #ffffff;
+    font-size: 11px;
+    }
+
+
+
+/*Media Queries*/
+
+@media (min-width: 375px) {
+    
+    
+    .nav li{
+    padding: 1.6rem;
+    align-items: center;
+    }
+    
+    .nav li a{
+    font-size: 14px;
+    display:flex;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    }
+    
+    .texto-header{
+    padding: 1em;
+    }
+    .texto-header h3{
+    text-align: center;
+    padding-top: 1em;
+    font-size: 5rem;
+    }
+    
+    .texto-header p{
+    color: rgb(172, 172, 172);
+    font-size: 1.7em;
+    text-align: center;
+    }
+    /*Seccion 1-Platos alta cocina*/
+    .sec-1{
+    width: 100%;
+    gap: 15px;
+    padding: 2em;
+    }
+    
+    .titulo-sec1{
+    font-size: 25px;
+    padding-right: 3em;
+    }
+    .Box{
+    width: 280vh;
+    }
+    
+    .img-box1{
+    width: 180px;
+    }
+    
+    .img-box2{
+    width: 155px;
+    }
+    
+    .img-box3{
+    width: 150px;
+    padding: 15px;
+    }
+    
+    .img-box4{
+    width: 130px;
+    height: 120px;
+    padding: 0.5em;
+    }
+    
+    .Box p{
+    font-size: 9px;
+    padding: 0.3rem;
+    }
+    
+    /*Seccion 2- Pizzas*/
+    
+    .sec-2{
+    width: 100%;
+    gap: 15px;
+    padding: 15px;
+    }
+    
+    .video-1{ 
+    width: 100%;
+    border-radius: 10px;
+    }
+    
+    .titulo-sec2{
+    border-radius: 10px;
+    font-size: 26px;
+    margin-left: 90px;
+    margin-top: 70px;
+    }
+    
+    .card{
+    width: 250vh;
+    height: 170px;
+    }
+    
+    .img-2{
+    width: 170px;
+    height: 105px;
+    }
+    
+    .img-3{
+    width:150px;
+    height:160px;
+    }
+    
+    .sec-2 p{
+    font-size: 9px;
+    padding: 0.5em;
+    }
+    
+    
+    /*Seccion3-Hamburguesas*/
+    
+    .cardsec3{
+    gap: 12px;
+    width: 100%;
+    }
+
+    .card6{
+    padding: 1em;
+    }
+    
+    .card7{ 
+    padding: 2em;
+    }
+    
+    .video-2{ 
+    width:100%;
+    padding: 20px;
+    border-radius: 40px;
+    }
+    
+    .titulo-sec3{
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 85px;
+    }
+    .img-5{
+    width: 11rem;
+    }
+    .img-6{
+    width: 9rem;
+    height: 8rem;
+    }
+    .img-7{
+    width: 14rem;
+    }
+    
+    .cardsec3 p {
+    font-size: 12px;
+    padding: 3em;
+    }
+    
+    /*Seccion 4-Ensaladas*/
+    
+    
+    .video-3{ 
+    width: 95%;
+    border-radius: 25px;
+    padding-left: 15px;
+    }
+    
+    
+    .titulo-sec4{
+    border-radius: 10px;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: 80px;
+    }
+    
+    .sec-4{
+    width: 100%;
+    gap: 15px;
+    }
+    .cardsec4{
+    gap: 12px;
+    width: 290px;
+    padding: 1em;
+    }
+    .img-8{
+    width: 8rem;
+    height: 8rem;
+    }
+    .img-9{
+    width: 10rem;
+    height:7rem;
+    }
+    .sec-4 p{
+    font-size: 12px;
+    padding-left: 0.5em;
+    }
+    
+    /*seccion 5*/
+    
+    .sec-5{
+    width: 100%;
+    height: 55vh;
+    }
+        
+    .video-4{ 
+    width: 95%;
+    border-radius: 25px;
+    padding-left: 15px;
+    }
+    .titulo-sec5{
+    border-radius: 10px;
+    font-size: 29px;
+    margin-left: 80px;
+    margin-top: 80px;
+    }
+    
+    /*footer*/
+    .pie{
+    width: 100%;
+    height: 60vh;
+    }
+    
+    .mapa{
+    width: 50px;
+    height: 30px; 
+    border-radius: 10px;
+    }
+    
+    .titulo-foot-mapa{
+    font-size: 15px;
+    padding-top: 15px;
+    }
+    
+    .titulo-foot-ico{
+    padding-top: 15px;
+    font-size: 15px;
+    }  
+    
+    .lista-foot{
+    font-size: 15px;
+    }
+      
+    .lista-foot li a{
+    font-size: 11px;
+    }     
+    
+    .titulo-contenido-foot{
+    font-size: 15px;
+    padding-top: 20px;
+    }    
+    
+    
+    .fa-brands{
+    font-size: 12px;
+    padding: 3px;
+    }
+
+    .Btn {
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    left: 10rem;
+    bottom: 1rem;
+    }
+      
+    .arrow path {
+    fill: white;
+    }
+     
+    .copy{
+    font-size: 13px;
+    }
+
+}
+
+
+
+@media (min-width: 425px){
+    
+    .nav li{
+    padding: 2rem;
+    }
+        
+    .nav li a{
+    font-size: 14px;
+    display:flex;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    }
+    
+    .texto-header h3{
+    text-align: center;
+    padding-top: 0.9em;
+    font-size: 5rem;
+    }
+        
+    .texto-header p{
+    color: rgb(172, 172, 172);
+    font-size: 1.7em;
+    text-align: center;
+    }
+    /*Seccion 1-Platos alta cocina*/
+    .sec-1{
+    gap: 15px;
+    padding: 2em;
+    }
+        
+    .titulo-sec1{
+    font-size: 28px;
+    padding-right: 3em;
+    }
+    .Box{
+    width: 280vh;
+    }
+        
+    .img-box1{
+    width: 180px;
+    }
+        
+    .img-box2{
+    width: 155px;
+    }
+        
+    .img-box3{
+    width: 160px;
+    padding: 15px;
+    }
+        
+    .img-box4{
+    width: 150px;
+    height: 140px;
+    padding: 0.5em;
+    }
+        
+    .Box p{
+    font-size: 12px;
+    padding: 0.3rem;
+    }
+    
+    /*Seccion 2- Pizzas*/
+        
+    .sec-2{
+    width: 100%;
+    gap: 15px;
+    padding: 15px;
+    }
+        
+    .video-1{ 
+    width: 100%;
+    border-radius: 10px;
+    }
+        
+    .titulo-sec2{
+    border-radius: 10px;
+    font-size: 32px;
+    margin-left: 90px;
+    margin-top: 85px;
+    }  
+    .sec-2 p{
+    font-size: 12px;
+    padding: 0.5em;
+    }
+        
+        
+    /*Seccion3-Hamburguesas*/
+    
+    .titulo-sec3{
+    font-size: 28px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 100px;
+    }
+    .cardsec3 p {
+    font-size: 13px;
+    padding: 3em;
+    }
+        
+    /*Seccion 4-Ensaladas*/
+        
+    .titulo-sec4{
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 80px;
+    }
+        
+    /*seccion 5*/
+    
+    .titulo-sec5{
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 90px;
+    margin-top: 80px;
+    }
+    
+     /*footer*/
+    
+    .Btn {
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    left: 11rem;
+    bottom: 1rem;
+    }
+          
+    .arrow path {
+    fill: white;
+    }
+
+}
+    
+
+
